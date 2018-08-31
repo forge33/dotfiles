@@ -185,3 +185,8 @@
 [url "git://gist.github.com/"]
 
 	insteadOf = "gist:"
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+name = Patrick Begley
+email = patrick.begley@shopify.com
