@@ -7,8 +7,8 @@ if [[ -f /opt/dev/dev.sh ]] && [[ $- == *i* ]]; then
 fi
 #export CLICOLOR="YES"
 #export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
-#alias home='ssh -l forge33 10.42.0.230'
-#alias ll='ls -l && echo "$(ls -1 | wc -l) files"'
+alias home='ssh -l forge33 10.42.0.230'
+alias ll='ls -l && echo "$(ls -1 | wc -l) files"'
 
 
 [ -n "$PS1" ] && source ~/.bash_profile;
